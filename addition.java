@@ -1,11 +1,10 @@
-import java.util.io.*;
-class add
-{
-	public static void Main(String args[])
-	{
-		int a=1;
-		int b=2;
-		int c=a+b;
-		System.out.prinltn(c);
-	}
+public class addition {
+
+   public static void main(String[] args) {
+        
+      int num1 = 5, num2 = 15, sum;
+      sum = num1 + num2;
+
+      System.out.println("Sum of these numbers: "+sum);
+   }
 }
